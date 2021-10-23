@@ -10,7 +10,7 @@
 - 👨‍🎓 3rd Year CSE student @VIT Chennai
 
 
-- 🔭 I’m currently working on my Data Structure and Algorithmim Skills
+- 🔭 I’m currently working on my Data Structure and Algorithmic Skills
 - 📛 Member at Wev Dev HackClub
 - 💬 Ask me about .. Anything
 - 📫 How to reach me: ...[LinkedIn](https://www.linkedin.com/in/anmol-mishra-92ab67188/)
