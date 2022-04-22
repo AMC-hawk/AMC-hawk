@@ -1,8 +1,8 @@
-<h1 align="left">Anmol Mishra</h1>
+<h1 align="center">Anmol Mishra</h1>
 <!--
 **AMC-hawk/AMC-hawk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.Here are some ideas to get you started:-->
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FFFF00&size=40&width=900&height=100&lines=Hi+Folks!!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FFFF00&size=40&width=900&height=100&lines=Hey+People!!)](https://git.io/typing-svg)
 # 🤵 < About Me />
 ### Hi there 👋 This is Anmol!
 
@@ -11,10 +11,10 @@
 
 
 - 🔭 I’m currently working on my Data Structure and Algorithmic Skills
-- 📛 Member at Wev Dev HackClub
+- 📛 Member at Web Dev HackClub
 - 💬 Ask me about .. Anything
+- ⚡ Learning App development (Flutter / React Native)
 - 📫 How to reach me: ...[LinkedIn](https://www.linkedin.com/in/anmol-mishra-92ab67188/)
-- ⚡ Fun fact: ... I never knew how to make github readme till now! (2nd Aug 2021)
 
 <h3 ><u>Connect with me:</u></h3><p ><a href="https://www.linkedin.com/in/anmol-mishra-92ab67188/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/ alt="LinkedIn-logo"></a>                                     </a><a href="https://www.codechef.com/users/i_ace"><img src="https://img.shields.io/badge/Codechef-white?style=for-the-badge&logo=Codechef&logoColor=black"/ alt="Instagram-logo"></a>
 
