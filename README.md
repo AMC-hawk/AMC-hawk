@@ -2,7 +2,7 @@
 <!--
 **AMC-hawk/AMC-hawk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.Here are some ideas to get you started:-->
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=#000&size=40&width=900&height=100&lines=Hey+People!!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=40&width=900&height=100&lines=Hey+People!!)](https://git.io/typing-svg)
 # 🤵 < About Me />
 ### Hi there 👋 This is Anmol!
 
