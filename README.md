@@ -7,13 +7,12 @@
 ### Hi there 👋 This is Anmol!
 
 
-- 👨‍🎓 3rd Year CSE student @VIT Chennai
+- 👨‍🎓 Graduated from Vellore Institute of Technology!
 
 
-- 🔭 I’m currently working on my Data Structure and Algorithmic Skills
 - 📛 Member at Web Dev HackClub
 - 💬 Ask me about .. Anything
-- ⚡ Learning App development (Flutter / React Native)
+- ⚡ Working in Big Data Domain
 - 📫 How to reach me: ...[LinkedIn](https://www.linkedin.com/in/anmol-mishra-92ab67188/)
 
 <h3 ><u>Connect with me:</u></h3><p ><a href="https://www.linkedin.com/in/anmol-mishra-92ab67188/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/ alt="LinkedIn-logo"></a>                                     </a><a href="https://www.codechef.com/users/i_ace"><img src="https://img.shields.io/badge/Codechef-white?style=for-the-badge&logo=Codechef&logoColor=black"/ alt="Instagram-logo"></a>
