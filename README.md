@@ -1,8 +1,6 @@
 <h1 align="center">Anmol Mishra</h1>
 <!--
 **AMC-hawk/AMC-hawk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.Here are some ideas to get you started:-->
-### Hi there 👋 This is Anmol!
-
 
 - 👨‍🎓 Graduated from Vellore Institute of Technology!
 
