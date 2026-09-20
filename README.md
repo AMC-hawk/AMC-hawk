@@ -27,9 +27,9 @@ behind the Distributed Data Platform:
 
 <img src="pipeline.svg" alt="Postgres to Debezium CDC to Kafka to Spark to Iceberg to Trino to 15+ BI models" width="100%">
 
-| | |
+| Scale | What it means |
 |---|---|
-| **1+ TB / day** | processed across batch and streaming pipelines |
+| **1+ TB / day** | processed across batch and streaming pipelines, with reliable CDC and low-latency sync |
 | **15+ BI data models** | delivered for Customer Success, FinOps and Engineering |
 | **95%+** | production incident SLA compliance |
 
