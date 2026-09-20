@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 152" width="980" height="152" role="img" aria-label="Data pipeline: Postgres to Debezium CDC to Kafka to Spark to Iceberg to Trino to BI models">
+<rect x="0.5" y="0.5" width="979" height="151" rx="8" fill="#f8f6f3" stroke="#e3dfdb"/>
+<text x="24" y="26" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#ff4f38">A day in the platform</text>
+<rect x="24.5" y="44.5" width="115" height="53" rx="5" fill="#ffffff" stroke="#cfc9c3" stroke-width="1"/>
+<text x="82.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Postgres</text>
+<text x="82.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#868686">sources</text>
+<line x1="140" y1="71.0" x2="160" y2="71.0" stroke="#cfc9c3" stroke-width="1"/>
+<circle cx="150.0" cy="71.0" r="2.6" fill="#ff4f38"/>
+<rect x="160.5" y="44.5" width="115" height="53" rx="5" fill="#ffffff" stroke="#cfc9c3" stroke-width="1"/>
+<text x="218.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Debezium</text>
+<text x="218.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#868686">change capture</text>
+<line x1="276" y1="71.0" x2="296" y2="71.0" stroke="#cfc9c3" stroke-width="1"/>
+<circle cx="286.0" cy="71.0" r="2.6" fill="#ff4f38"/>
+<rect x="296.5" y="44.5" width="115" height="53" rx="5" fill="#ffffff" stroke="#cfc9c3" stroke-width="1"/>
+<text x="354.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Kafka</text>
+<text x="354.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#868686">streaming</text>
+<line x1="412" y1="71.0" x2="432" y2="71.0" stroke="#cfc9c3" stroke-width="1"/>
+<circle cx="422.0" cy="71.0" r="2.6" fill="#ff4f38"/>
+<rect x="432.5" y="44.5" width="115" height="53" rx="5" fill="#fff0ed" stroke="#ff4f38" stroke-width="1.6"/>
+<text x="490.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ff4f38">Spark</text>
+<text x="490.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#c8553f">transform</text>
+<line x1="548" y1="71.0" x2="568" y2="71.0" stroke="#cfc9c3" stroke-width="1"/>
+<circle cx="558.0" cy="71.0" r="2.6" fill="#ff4f38"/>
+<rect x="568.5" y="44.5" width="115" height="53" rx="5" fill="#ffffff" stroke="#cfc9c3" stroke-width="1"/>
+<text x="626.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Iceberg</text>
+<text x="626.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#868686">lake</text>
+<line x1="684" y1="71.0" x2="704" y2="71.0" stroke="#cfc9c3" stroke-width="1"/>
+<circle cx="694.0" cy="71.0" r="2.6" fill="#ff4f38"/>
+<rect x="704.5" y="44.5" width="115" height="53" rx="5" fill="#ffffff" stroke="#cfc9c3" stroke-width="1"/>
+<text x="762.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Trino</text>
+<text x="762.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#868686">query</text>
+<line x1="820" y1="71.0" x2="840" y2="71.0" stroke="#cfc9c3" stroke-width="1"/>
+<circle cx="830.0" cy="71.0" r="2.6" fill="#ff4f38"/>
+<rect x="840.5" y="44.5" width="115" height="53" rx="5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/>
+<text x="898.0" y="67" text-anchor="middle" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">BI models</text>
+<text x="898.0" y="83" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#a9a3a0">15+ delivered</text>
+<text x="24" y="138" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" fill="#595959">1+ TB/day  &#183;  orchestrated by Airflow on EKS  &#183;  watched by Prometheus &#38; Grafana</text>
+</svg>
