@@ -25,21 +25,7 @@ column, in a join that was fine until the partition skewed. That's the layer I w
 At **Hewlett Packard Enterprise** I design and operate the batch and streaming pipelines
 behind the Distributed Data Platform:
 
-```mermaid
-flowchart LR
-    A[("Postgres<br/>sources")] -->|"Debezium CDC"| B["Kafka"]
-    B --> C["Spark<br/>Scala + SQL"]
-    C --> D[("Iceberg<br/>Delta Lake")]
-    D --> E["Trino"]
-    E --> F(["15+ BI models"])
-
-    classDef hot fill:#fff0ed,stroke:#ff4f38,stroke-width:2px,color:#ff4f38;
-    classDef end_ fill:#1a1a1a,stroke:#1a1a1a,color:#ffffff;
-    class C hot;
-    class F end_;
-```
-
-Orchestrated by Airflow, running on EKS, watched by Prometheus and Grafana.
+<img src="pipeline.svg" alt="Postgres to Debezium CDC to Kafka to Spark to Iceberg to Trino to 15+ BI models" width="100%">
 
 | | |
 |---|---|
