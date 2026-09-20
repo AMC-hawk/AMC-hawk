@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=23&duration=3200&pause=900&color=FF4F38&center=true&vCenter=true&width=780&height=45&lines=Distributed+Data+Platform+%40+HPE;Spark+%E2%80%A2+Kafka+%E2%80%A2+Debezium+%E2%80%A2+Trino+%E2%80%A2+1%2B+TB%2Fday;Apache+Spark+%26+PyDeequ+contributor;Building+a+database+from+scratch%2C+to+find+out+how" alt="Anmol Mishra" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=23&duration=3200&pause=900&color=FF4F38&center=true&vCenter=true&width=780&height=45&lines=Distributed+Data+Platform+%40+HPE;Spark+%E2%80%A2+Kafka+%E2%80%A2+Debezium+%E2%80%A2+Trino+%E2%80%A2+1%2B+TB%2Fday;Building+a+database+from+scratch%2C+to+find+out+how" alt="Anmol Mishra" />
 
 ### Anmol Mishra
 
-**Software Engineer — Distributed Data Platform**  ·  Bangalore, India
+**Software Engineer, Distributed Data Platform**  ·  Bangalore, India
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-amc--hawk.github.io-FF4F38?style=flat-square&logo=githubpages&logoColor=white)](https://amc-hawk.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-anmol--mishra-0A66C2?style=flat-square)](https://www.linkedin.com/in/anmol-mishra-92ab67188/)
@@ -16,14 +16,14 @@
 
 ## What I actually do
 
-I care about what happens to data **before** anyone models it.
+I care about what happens to data before anyone models it.
 
-Most of the interesting failures in a data platform don't happen in the model — they happen
-three systems upstream, in a schema nobody owned, in a CDC stream that silently dropped a
-column, in a join that was fine until the partition skewed. That's the layer I work at.
+Most of the interesting failures in a data platform never happen in the model. They happen
+three systems upstream, in a schema nobody owned, in a CDC stream that quietly dropped a
+column, in a join that was fine until the partition skewed. That is the layer I work at.
 
-At **Hewlett Packard Enterprise** I design and operate the batch and streaming pipelines
-behind the Distributed Data Platform:
+At Hewlett Packard Enterprise I design and operate the batch and streaming pipelines behind
+the Distributed Data Platform:
 
 <img src="pipeline.svg" alt="Postgres to Debezium CDC to Kafka to Spark to Iceberg to Trino to 15+ BI models" width="100%">
 
@@ -33,30 +33,26 @@ behind the Distributed Data Platform:
 | **15+ BI data models** | delivered for Customer Success, FinOps and Engineering |
 | **95%+** | production incident SLA compliance |
 
----
-
-## Open source
-
-| Project | Contribution | Status |
-|---|---|---|
-| **[Apache Spark](https://github.com/apache/spark/pull/58760)** | `SPARK-59146` — retain qualified access to source columns affected by pipe `SET`, with planner changes and SQL test coverage | open |
-| **[AWS PyDeequ](https://github.com/awslabs/python-deequ/pull/289)** | DQDL support via `EvaluateDataQuality`, with tests and documentation | **merged** |
+Most of my week is spent on the unglamorous half of that picture: partitioning and join
+strategy when a table outgrows its plan, resource tuning on Kubernetes, and the alerting
+that tells us something broke before a dashboard does.
 
 ---
 
 ## Building
 
-**RaftDB** — a mini distributed database, written from scratch because I didn't want
-consensus, recovery and query optimization to stay black boxes.
-Raft consensus, leader election, log replication, WAL, snapshots, SSTables, Bloom filters
-and background compaction — with a cost-based SQL layer on Apache Calcite over the top.
+**RaftDB**, a mini distributed database written from scratch. I did not want consensus,
+recovery and query optimization to stay black boxes, so I built them: Raft consensus with
+leader election and log replication, a storage layer with WAL, snapshots, SSTables, Bloom
+filters and background compaction, and a cost-based SQL layer on Apache Calcite over the
+top.
 `Java` · `Raft` · `LSM Tree` · `RocksDB` · `Apache Calcite`
 
-**Data quality research** — working toward a cloud-native data quality framework for
-open-source datasets: validation systems, error detection, label noise and LLM-driven
-cleaning.
+**Data quality research**, working toward a cloud-native data quality framework for
+open-source datasets. Right now that means reading widely across validation systems, error
+detection, label noise and LLM-driven cleaning, and writing up what actually holds.
 
-Public experiments →
+Public experiments:
 [AIOps Platform](https://github.com/AMC-hawk/AIOps-Platform-POC) ·
 [JanusGraph](https://github.com/AMC-hawk/JanusGraph-POC) ·
 [Airflow + Spark](https://github.com/AMC-hawk/Airflow-Spark-Setup) ·
